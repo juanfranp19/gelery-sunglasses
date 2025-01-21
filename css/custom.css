@@ -18,6 +18,14 @@
     font-style: normal;
 } */
 
+p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: light;
+    font-style: normal;
+    color: var(--negro);
+}
+
 .sin {
     padding: 0;
     margin: 0;
@@ -80,7 +88,7 @@ body {
     /* main */
         .imgGafas {
             width: 60%;
-            margin: 0 23%;
+            max-width: 500px;
         }
 }
 

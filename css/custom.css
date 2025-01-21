@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --azulMarinoOscuro: #091D36;
-    --azulMarino: #101e5a;
-    --azulMarinoClaro: #5D80B6;
-    --azulCeleste: #BFCEE1;
-    --blancoRoto: #F7F8F9;
-    --azulGrisaceo: #8E9092;
+    --azulMarinoOscuro: #091d36; /*estilo1*/
+    --azulMarino: #101e5a; /*estilo2*/
+    --azulMarinoClaro: #5d80b6; /*estilo3*/
+    --azulCeleste: #bfcee1; /*estilo4*/
+    --blancoRoto: #f7f8f9; /*estilo5*/
+    --negro: #000000; /*estilo6*/
+    --azulGrisaceo: #8e9092; /*estilo7*/
+    --grisClaro: #cfcfcd; /*estilo8*/
 }
 
 /* .montserrat-<uniquifier> {
@@ -44,6 +46,12 @@ body {
 
     .nav-link:hover {
         color: var(--azulGrisaceo);
+    }
+
+    .nav-link.active {
+        background-color: var(--azulCeleste);
+        color: var(--negro) !important;
+        border-radius: 10px;
     }
 
     .dropdown-menu {

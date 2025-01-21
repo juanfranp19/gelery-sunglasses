@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --azulMarinoOscuro: #091D36;
     --azulMarino: #101e5a;
@@ -6,6 +8,13 @@
     --blancoRoto: #F7F8F9;
     --azulGrisaceo: #8E9092;
 }
+
+/* .montserrat-<uniquifier> {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
 
 .sin {
     padding: 0;
@@ -42,3 +51,31 @@ body {
         min-width: 55px;
     }
 
+/* main */
+    .imgGafas {
+        width: 100%;
+    }
+
+/* para cambios en tamaños a partir de sm */
+@media screen and (min-width: 576px) {
+
+    /* main */
+        .imgGafas {
+            width: 60%;
+            margin: 10% 20%;
+        }
+}
+
+/* para cambios en tamaños a partir de md */
+@media screen and (min-width: 768px) {
+
+    /* main */
+        .imgGafas {
+            width: 60%;
+            margin: 0 23%;
+        }
+}
+
+
+
+/* Y DE LOS ACCESORIOS PARA QUE SE VENA BIEN EN MD*/

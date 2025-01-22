@@ -23,6 +23,7 @@ p {
     font-optical-sizing: auto;
     font-weight: light;
     font-style: normal;
+    font-size: 15px;
     color: var(--negro);
 }
 
@@ -43,34 +44,44 @@ body {
 }
 
 /* nav */ 
+.navbar {
+    background-color: var(--azulMarinoOscuro);
+}
 
-    .navbar {
-        background-color: var(--azulMarinoOscuro);
-    }
+.nav-link {
+    color: var(--blancoRoto);
+}
 
-    .nav-link {
-        color: var(--blancoRoto);
-    }
+.nav-link:hover {
+    color: var(--azulGrisaceo);
+}
 
-    .nav-link:hover {
-        color: var(--azulGrisaceo);
-    }
+.nav-link.active {
+    background-color: var(--azulCeleste);
+    color: var(--negro) !important;
+    border-radius: 10px;
+}
 
-    .nav-link.active {
-        background-color: var(--azulCeleste);
-        color: var(--negro) !important;
-        border-radius: 10px;
-    }
-
-    .dropdown-menu {
-        width: 55px;
-        min-width: 55px;
-    }
+.dropdown-menu {
+    width: 55px;
+    min-width: 55px;
+}
 
 /* main */
-    .imgGafas {
-        width: 100%;
-    }
+.imgGafas {
+    width: 100%;
+}
+
+.textocentrado{
+    text-align: center;
+}
+
+/* Estilo para el título principal de información */
+.titulos {
+    margin: 5%; 
+    color: var(--azulMarino);
+    font-family: 'Georgia', serif;
+}
 
 /* para cambios en tamaños a partir de sm */
 @media screen and (min-width: 576px) {

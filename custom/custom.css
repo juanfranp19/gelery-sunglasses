@@ -77,27 +77,39 @@ body {
 }
 
 .footer {
-    background-color: var(--azulMarinoOscuro); /* Naranja */
-    color: white;
+    background-color: var(--azulMarinoOscuro);
     text-align: center;
-    margin-top: 15px;
+    margin-top: 35px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .social-icons > a {
-    color: white;
+    color: var(--azulCeleste);;
     margin: 5px;
     text-decoration: none;
     font-size: 24px;
 }
 
-/* Estilo para el título principal de información */
 h2 {
     margin: 2%; 
     color: var(--azulMarino);
-    font-family: 'Georgia', serif;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
 }
+
+h3 {
+    color: var(--azulCeleste);
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+}
+
 
 /* para cambios en tamaños a partir de sm */
 @media screen and (min-width: 576px) {

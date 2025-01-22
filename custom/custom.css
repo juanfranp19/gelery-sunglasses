@@ -59,7 +59,7 @@ body {
 .nav-link.active {
     background-color: var(--azulCeleste);
     color: var(--negro) !important;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .dropdown-menu {
@@ -76,9 +76,25 @@ body {
     text-align: center;
 }
 
+.footer {
+    background-color: var(--azulMarinoOscuro); /* Naranja */
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social-icons > a {
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
 /* Estilo para el título principal de información */
-.titulos {
-    margin: 5%; 
+h2 {
+    margin: 2%; 
     color: var(--azulMarino);
     font-family: 'Georgia', serif;
 }

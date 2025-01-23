@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --azulMarinoOscuro: #091d36; /*estilo1*/
+    --azulMarino: #101e5a; /*estilo2*/
+    --azulMarinoClaro: #5d80b6; /*estilo3*/
+    --azulCeleste: #bfcee1; /*estilo4*/
+    --blancoRoto: #f7f8f9; /*estilo5*/
+    --negro: #000000; /*estilo6*/
+    --azulGrisaceo: #8e9092; /*estilo7*/
+    --grisClaro: #cfcfcd; /*estilo8*/
+}
+
+/* .montserrat-<uniquifier> {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
+
+h1 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--azulMarinoOscuro);
+    text-align: center;
+    padding: 50px 0px;
+}
+
+h2 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: var(--azulMarino);
+    margin: 2%;
+}
+
+h3 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: var(--azulMarinoClaro);
+}
+
+p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: light;
+    font-style: normal;
+    font-size: 15px;
+    color: var(--negro);
+    text-align: center;
+}
+
+.sin {
+    padding: 0;
+    margin: 0;
+}
+
+.icono {
+    width: 20px;
+}
+
+body {
+    background-color: var(--azulCeleste);
+}
+
+/* nav */ 
+    .navbar {
+        background-color: var(--azulMarinoOscuro);
+    }
+
+    .nav-link {
+        color: var(--blancoRoto);
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-link:hover {
+        color: var(--azulGrisaceo);
+    }
+
+    .nav-link.active {
+        background-color: var(--azulCeleste);
+        color: var(--negro) !important;
+        border-radius: 8px;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+        width: 100%;
+    }
+
+/* main */
+    .imgGafas {
+        width: 100%;
+    }
+
+    .textoGafas {
+        padding: 5% 5% 5% 10%;
+    }
+    
+/* footer */
+    .footer {
+        background-color: var(--azulMarinoOscuro);
+        text-align: center;
+        margin-top: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .social-icons > a {
+        color: var(--azulCeleste);;
+        margin: 5px;
+        text-decoration: none;
+        font-size: 24px;
+    }
+
+    .textoFooter {
+        font-size: smaller;
+        color: var(--grisClaro);
+        margin-top: 20px;
+    }
+
+/* para cambios en tamaños a partir de sm */
+@media screen and (min-width: 576px) {
+
+    h1 {
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    /* main */
+        .imgGafas {
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+        }
+}
+
+/* para cambios en tamaños a partir de md */
+@media screen and (min-width: 768px) {
+
+    /* nav */
+        .dropdown-menu {
+            width: 55px;
+            min-width: 55px;
+        }
+
+    /* main */
+        .imgGafas {
+            width: 100%;
+            max-width: 500px;
+            padding: 5% 10%;
+        }
+}

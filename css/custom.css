@@ -105,7 +105,50 @@ body {
     .textoGafas {
         padding: 5% 5% 5% 10%;
     }
+
+    .parrafo {
+        text-align: center;
+    }
+
+    label {
+        padding-bottom: 5px;
+    }
+
+    input {
+        height: 35px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    input::placeholder {
+        color: #969292;
+    }
+
+    textarea {
+        height: 80px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        height: 35px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        background-color: #091D36;
+    }
+
+    button:hover {
+        color: #8E9092;
+    }
     
+    button:active {
+        color: #000000;
+        background-color: #BFCEE1;
+    }
+
 /* footer */
     .footer {
         background-color: var(--azulMarinoOscuro);
@@ -134,6 +177,10 @@ body {
     h1 {
         text-align: left;
         padding-left: 25px;
+    }
+
+    .parrafo {
+        text-align: left;
     }
 
     /* main */

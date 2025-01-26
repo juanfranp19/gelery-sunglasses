@@ -20,11 +20,11 @@
                         <a class="navbar-brand" href="index.html">
                             <img class="rounded-circle" src="../../assets/logo/logo.png" alt="Logo Gelery Sunglasses" width="100">
                         </a>
-            
+
                         <button class="navbar-toggler btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-            
+
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
@@ -35,8 +35,8 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><i class="bi bi-globe"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a id="botonES" class="dropdown-item" href="#"><img class="icono" src="../../assets/iconos/espana.png" alt="Español"></a></li>
-                                        <li><a id="botonEN" class="dropdown-item" href="#"><img class="icono" src="../../assets/iconos/reino-unido.png" alt="Inglés"></a></li>
+                                        <li><a id="botonES" class="dropdown-item" href="#"><img class="icono" src="../../assets/iconos/espana.png" alt="Español"></a></li> 
+                                        <li><a id="botonEN" class="dropdown-item" href="#"><img class="icono" src="../../assets/iconos/reino-unido.png" alt="Inglés"></a></li> 
                                     </ul>
                                 </li>
                             </ul>
@@ -48,13 +48,49 @@
             <!-- main -->
 
             <div class="row">
-                <div class="col-12 sin">
-                    <h1 class="titulo">Contacto</h1>
-                </div>
+                <main class="col-12">
+                    <h1>Contacto</h1>
+                    <p class="parrafo">¿Tienes alguna duda o sugerencia? ¡Contáctanos!</p>
+                    <form action="#" method="post">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <label for="nombre" class="">Nombre</label><br>
+                                <input type="text" class="col-12 col-md-8" id="nombre" name="nombre" placeholder="Escriba su nombre" required>
+                                <br>
+                                <label for="email" class="">Correo electrónico</label><br>
+                                <input type="email" class="col-12 col-md-8" id="email" name="email" placeholder="Escriba su email" required>
+                                <br>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label for="motivo">¿Cual es el motivo de su mensaje?</label><br>
+    
+                                <input type="radio" id="trabajo" name="motivo">
+                                <label for="trabajo">Trabajo</label><br>
+    
+                                <input type="radio" id="informacion" name="motivo">
+                                <label for="informacion">Información</label><br>
+    
+                                <input type="radio" id="quejas" name="motivo">
+                                <label for="quejas">Quejas</label><br>
+    
+                                <input type="radio" id="informar" name="motivo">
+                                <label for="informar">Informar sobre un problema</label><br>
+    
+                                <input type="radio" id="otro" name="motivo">
+                                <label for="otro">Otro</label><br><br>
+                            </div>
+                        </div>
+
+                        <label for="mensaje" class="">Mensaje</label>
+                        <textarea class="col-12" id="mensaje" name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+                        <br>
+                        <button type="submit" class="col-12 col-sm-6 col-md-3">Enviar</button>
+                    </form>
+                </main>
             </div>
 
-
             <!-- footer -->
+
             <div class="row">
                 <div class="col-12 footer">
                     <h3>Redes sociales</h3>

@@ -109,7 +109,20 @@ body {
             text-align: start;
             margin: 20px 5px 40px 5px;
             min-height: 100%;
-            border-radius: 10px;
+        }
+
+    /* accesorios */
+        .imgAccesorio {
+            width: 100%;
+            max-width: 600px;
+
+        }
+
+        .textoAccesorio {
+            text-align: left;
+            padding: 50px 5px 40px 5px;
+            min-height: 100%;
+            margin-bottom: 50px;
         }
 
     /* contacto */
@@ -207,6 +220,15 @@ body {
                 padding: 10px;
             }
 
+        /* accesorios */
+            .imgAccesorio {
+                width: 100%;
+            }
+
+            .textoAccesorio {
+                padding: 20px 5px 40px 5px;
+            }
+
         /* ubicación */
             .mapaUbicacion {
                 height: 600px;
@@ -220,6 +242,16 @@ body {
         .dropdown-menu {
             width: 55px;
             min-width: 55px;
+        }
+
+    /* accesorios */
+        .imgAccesorio {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+
+        .textoAccesorio {
+            text-align: center;
         }
 
     /* main */

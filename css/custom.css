@@ -160,9 +160,9 @@ body {
     /* ubicación */
         .mapaUbicacion{
             width: 100%;
-            /* max-width: 600px; */
             height: 300px;
-            border: 1px solid var(--azulMarinoClaro);
+            border: 2px solid var(--azulMarinoClaro);
+            border-radius: 10px;
         }
 
 /* footer */

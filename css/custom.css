@@ -125,6 +125,10 @@ body {
         color: #969292;
     }
 
+    .botonRadio {
+        height: auto;
+    }
+
     textarea {
         height: 80px;
         border: none;

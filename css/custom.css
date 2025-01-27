@@ -98,70 +98,71 @@ body {
     }
 
 /* main */
-    .imgGafas {
-        width: 100%;
-        border-radius: 10%;
-    }
 
-    .textoGafas {
-        text-align: start;
-        margin: 20px 5px 40px 5px;
-        min-height: 100%;
-        border-radius: 10px;
-    }
+    /* gafas */
+        .imgGafas {
+            width: 100%;
+            border-radius: 10%;
+        }
 
-    .parrafo {
-        text-align: center;
-    }
+        .textoGafas {
+            text-align: start;
+            margin: 20px 5px 40px 5px;
+            min-height: 100%;
+            border-radius: 10px;
+        }
 
-    label {
-        padding-bottom: 5px;
-    }
+    /* contacto */
+        
+        label {
+            padding-bottom: 5px;
+        }
 
-    input {
-        height: 35px;
-        border: none;
-        border-radius: 8px;
-        margin-bottom: 15px;
-    }
+        input {
+            height: 35px;
+            border: none;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
 
-    input::placeholder {
-        color: #969292;
-    }
+        input::placeholder {
+            color: var(--azulMarinoOscuro);
+        }
 
-    .botonRadio {
-        height: auto;
-    }
+        .botonRadio {
+            height: auto;
+        }
 
-    textarea {
-        height: 80px;
-        border: none;
-        border-radius: 8px;
-        margin-bottom: 15px;
-    }
+        textarea {
+            height: 80px;
+            border: none;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
 
-    button {
-        height: 35px;
-        border: none;
-        border-radius: 8px;
-        color: white;
-        background-color: #091D36;
-    }
+        button {
+            height: 35px;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            background-color: #091D36;
+        }
 
-    button:hover {
-        color: #8E9092;
-    }
-    
-    button:active {
-        color: #000000;
-        background-color: #BFCEE1;
-    }
+        button:hover {
+            color: #8E9092;
+        }
+        
+        button:active {
+            color: #000000;
+            background-color: #BFCEE1;
+        }
 
-    iframe{
-        width: 100%;
-        height: 300px;
-        border: 1px solid var(--azulMarinoClaro);
-    }
+    /* ubicación */
+        iframe{
+            width: 100%;
+            height: 300px;
+            border: 1px solid var(--azulMarinoClaro);
+        }
 
 /* footer */
     .footer {
@@ -193,7 +194,7 @@ body {
         padding-left: 25px;
     }
 
-    .parrafo {
+    .parrafoContacto {
         text-align: left;
     }
 

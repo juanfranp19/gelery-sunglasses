@@ -100,10 +100,14 @@ body {
 /* main */
     .imgGafas {
         width: 100%;
+        border-radius: 10%;
     }
 
     .textoGafas {
-        padding: 5% 5% 5% 10%;
+        text-align: start;
+        margin: 20px 5px 40px 5px;
+        min-height: 100%;
+        border-radius: 10px;
     }
 
     .parrafo {
@@ -208,6 +212,6 @@ body {
         .imgGafas {
             width: 100%;
             max-width: 500px;
-            padding: 5% 10%;
+            /* padding: 5% 10%; */
         }
 }

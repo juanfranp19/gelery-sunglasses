@@ -121,7 +121,7 @@ body {
         .textoAccesorio {
             text-align: left;
             padding: 50px 5px 40px 5px;
-            min-height: 100%;
+            min-height: 100%; /* para que se alinée con la foto */
             margin-bottom: 50px;
         }
 
@@ -175,7 +175,6 @@ body {
             width: 100%;
             height: 300px;
             border: 2px solid var(--azulMarinoClaro);
-            border-radius: 10px;
         }
 
 /* footer */
@@ -231,7 +230,8 @@ body {
 
         /* ubicación */
             .mapaUbicacion {
-                height: 600px;
+                height: 500px;
+                border-radius: 10px;
             }
 }
 
@@ -251,13 +251,19 @@ body {
         }
 
         .textoAccesorio {
-            text-align: center;
+            min-height: 0;
         }
 
     /* main */
-        .imgGafas {
-            width: 100%;
-            max-width: 500px;
-            /* padding: 5% 10%; */
-        }
+        /* gafas */
+            .imgGafas {
+                width: 100%;
+                max-width: 500px;
+                /* padding: 5% 10%; */
+            }
+
+        /* ubicación */
+            .mapaUbicacion {
+                height: 600px;
+            }
 }

@@ -120,7 +120,6 @@ body {
 
         .imgGafas {
             width: 100%;
-            border-radius: 10%;
         }
 
         .textoGafas {
@@ -209,11 +208,11 @@ body {
 
     .tituloFooter {
         text-align: center;
+        margin: 0;
     }
 
     .social-icons>a {
         color: var(--azulCeleste);
-        ;
         margin: 5px;
         text-decoration: none;
         font-size: 24px;
@@ -245,6 +244,7 @@ body {
                 width: 100%;
                 margin: 0;
                 padding: 10px;
+                border-radius: 10%;
             }
 
         /* accesorios */
@@ -268,7 +268,7 @@ body {
 /* para cambios en tamaños a partir de md */
 @media screen and (min-width: 768px) {
 
-    h3 {
+    .h3Index {
         text-align: left;
         padding-left: 20px;
     }

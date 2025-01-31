@@ -133,7 +133,6 @@ body {
         .imgAccesorio {
             width: 100%;
             max-width: 600px;
-
         }
 
         .textoAccesorio {
@@ -209,6 +208,7 @@ body {
     .tituloFooter {
         text-align: center;
         margin: 0;
+        margin-top: 30px;
     }
 
     .social-icons>a {

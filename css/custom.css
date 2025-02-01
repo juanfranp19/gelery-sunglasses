@@ -144,6 +144,10 @@ body {
 
     /* contacto */
 
+        .formulario {
+            min-height: 600px;
+        }
+
         label {
             padding-bottom: 5px;
         }

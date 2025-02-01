@@ -280,6 +280,10 @@ body {
             min-width: 55px;
         }
 
+        .nav-item {
+            padding: 10px;
+        }
+
     /* main */
 
         /* index */

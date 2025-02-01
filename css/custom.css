@@ -160,7 +160,12 @@ body {
         }
 
         input::placeholder {
-            color: var(--azulMarinoOscuro);
+            color: var(--azulGrisaceo);
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border: 2px solid var(--negro);
         }
 
         .botonRadio {
@@ -179,16 +184,16 @@ body {
             border: none;
             border-radius: 8px;
             color: white;
-            background-color: #091D36;
+            background-color: var(--azulMarinoOscuro);
         }
 
         .botonFormulario:hover {
-            color: #8E9092;
+            color: var(--azulGrisaceo);
         }
 
         .botonFormulario:active {
-            color: #000000;
-            background-color: #BFCEE1;
+            background-color: var(--azulCeleste);
+            color: var(--negro);
         }
 
     /* ubicación */

@@ -41,9 +41,9 @@ window.onload = function() {
         let url = '';
 
         if (idioma === 'es') {
-            url = '/views/es/index.html';
+            url = '../../views/es/index.html';
         } else if (idioma === 'en') {
-            url = '/views/en/home.html';
+            url = '../../views/en/home.html';
         }
 
         window.location.href = url;
